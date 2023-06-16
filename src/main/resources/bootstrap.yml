@@ -1,0 +1,10 @@
+server:
+  port: 8000
+
+spring:
+  cloud:
+    kubernetes:
+      client:
+        namespace: default
+        master-url: https://192.168.254.102:6443
+        trust-certs: true
